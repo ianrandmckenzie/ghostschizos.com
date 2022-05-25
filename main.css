@@ -33,8 +33,8 @@
   color: black;
 }
 
-.red {
-  color: red;
+.maroon {
+  color: maroon;
 }
 
 /* Fonts */
@@ -56,7 +56,7 @@ h1, h3 {
 }
 
 a {
-  color: red;
+  color: maroon;
   font-weight: bold;
 }
 
@@ -65,7 +65,7 @@ hr {
 }
 
 a:hover {
-  color: red;
+  color: maroon;
   text-decoration: underline;
 }
 
@@ -124,12 +124,6 @@ a:hover {
   margin-bottom: 200px;
 }
 
-@media print { 
- .navbar { 
-  display: none !important; 
- } 
-}
-
 /* Content */
 body {
   overflow-x: hidden !important;
@@ -149,7 +143,7 @@ body {
 }
 
 .btn:hover {
-  color: red;
+  color: maroon;
 }
 
 .images-container-landing {
@@ -192,13 +186,17 @@ body {
   
 }
 
-.carousel-item img,
-.example-thin {
+.carousel-item img {
   filter: grayscale(100%);
   border: 3px solid white;
   border-top: 5px solid white;
   border-bottom: 5px solid white;
   max-height: 25vw;
+}
+
+.example-thin {
+  filter: grayscale(100%);
+  border: 4px solid black;
 }
 
 @keyframes starry {
@@ -242,6 +240,10 @@ body {
   border: 4px solid black;
 }
 
+.mh-100 {
+  min-height: 100vh;
+}
+
 @keyframes gradient {
 	0% {
 		background-position: 0% 25%;
@@ -270,5 +272,3 @@ body {
     margin-bottom: 100px;
   }
 }
-
-

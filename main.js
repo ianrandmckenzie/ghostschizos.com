@@ -1,5 +1,4 @@
 $(document).ready(function(){
-  AOS.init();
   $(".decrypted-1").hide();
   $(".decrypted-2").hide();
   $(".decrypted-3").hide();

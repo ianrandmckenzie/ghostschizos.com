@@ -64,7 +64,7 @@
   <body class="darker-bg">
     <!-- Content Begin -->
     <div class="container">
-      <div class="row vh-100">
+      <div class="row mh-100">
         <div class="col-md-6 above-the-fold my-auto">
           <h1>Ghost Schizos</h1>
           <h2>A whitepaper on leveraging NFTs to support victims of schizophrenia <em>with style.</em></h2>
@@ -84,14 +84,14 @@
           <hr class="m-0 bbw-1">
         </div>
       </div>
-      <div class="container vh-100 mt-2">
+      <div class="container mt-2">
         <div class="row p-4" data-aos="fade-up" data-aos-duration="1000">
           <div class="col-md-3 p-4 mb-auto">
             <hr>
             <img src="./images/elephant.png" alt="t-shirt illustration featuring the 'leading while following' marking" class="img-fluid">
             <hr><hr data-aos="fade-up" data-aos-duration="3000"><hr data-aos="fade-up" data-aos-duration="3000">
           </div>
-          <div class="col-md-6 vh-100">
+          <div class="col-md-6 mh-100">
             <h2 class="px-4 pt-4">How It Works</h2>
             <p class="px-4 pb-4 pt-2">
               <span class="decrypted-3" style="white-space: pre-line;">
@@ -7462,7 +7462,7 @@
           <h3>Thin</h3>
           <h4>Uncommon Supply</h4>
           <p>(in the hundreds)</p>
-          <img src="./images/thin-example.png" class="img-fluid">
+          <img src="./images/thin-example.png" class="img-fluid" style="border: 4px solid black;">
           <hr class="m-4 bbb-1">
           <p>Thin markings are uncommon and are foten paired with unusual characterstics like color and other aspects that break typical convention. Continuing with the army metaphor, these are the rebels. The people who are not afraid of risk and taking chances for the good of humanity.</p>
         </div>
@@ -7470,14 +7470,14 @@
           <h3>Distressed Stamp</h3>
           <h4>Rare Supply</h4>
           <p>(less than 100)</p>
-          <img src="./images/community.jpg" class="img-fluid example-thin">
+          <img src="./images/community.png" class="img-fluid example-thin">
           <hr class="m-4 bbb-1">
           <p>Distressed markings are extremely laborious to make. They have a high degree of craftsmanship, with every step of the way being calculated for a specific look and purpose. Metaphorically, these are the generals - those who have earned their power and balance risk with experience and expansive knowledge.</p>
         </div>
       </div>
     </div>
     <div class="container">
-      <div class="row vh-100">
+      <div class="row mh-100">
         <div class="col-md-6 my-auto">
           <img src="./images/apparel-2.png" alt="t-shirt illustration featuring the 'leading while following' marking" class="img-fluid" style="background: radial-gradient(ellipse at center bottom, #f3f4ea, rgba(0,0,0,0) 65%);">
           <hr class="m-0 bbw-1">
@@ -7521,5 +7521,12 @@
       </div>
     </footer>
     <!-- Footer End -->
+    <script>
+      $(document).ready(function(){
+          AOS.init({
+              once: true // this one if you want to load animation once else you can remove it
+          });
+      });
+    </script>
   </body>
 </html>
