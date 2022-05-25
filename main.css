@@ -125,7 +125,9 @@ a:hover {
 }
 
 /* Content */
-body {
+body,
+.container,
+.container-fluid {
   overflow-x: hidden !important;
 }
 
