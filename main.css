@@ -236,7 +236,7 @@ body,
 }
 
 .animated-bg {
-  background: radial-gradient(circle at center, #ffffff, #fff0db, #ffffff, #fff0db 200%);
+  background: radial-gradient(circle at center, #ffffff, #e6d4bc, #ffffff, #e6d4bc, #ffffff, #e6d4bc, #ffffff, #e6d4bc 200%);
 	background-size: 400% 400%;
 	animation: gradient 20s ease-in-out infinite;
   border: 4px solid black;
